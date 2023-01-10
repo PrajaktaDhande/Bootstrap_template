@@ -1,0 +1,39 @@
+*{ margin: 0%; padding: 0%;}
+
+.banner{ background: url(../img/banner.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: 100vh;}
+.title{text-align: center; color: white;}
+.title p{padding: 276px 0 0; font-style: italic; font-size: 20px;}
+.title h1{ font-weight: bold; text-transform: uppercase;}
+.btn button{color: white; background-color: #ffc800; padding: 10px 30px; border: none; border-radius: 5px; margin: 20px 0; text-transform: uppercase; font-size: 14px; font-weight: 700;}
+
+.section2, .section3, .section5{ text-align: center; position: relative;     padding: 50px 0;}
+.heading2 h3, .heading3 h3, .heading5 h3{ font-size: 30px;    font-weight: 700;    text-transform: uppercase; }
+.heading2 p, .heading3 p, .heading5 p{font-size: 12px; font-weight: 500; color: grey; font-style: italic; padding-bottom: 25px;}
+.icon_text i{font-size: 30px; background-color: #ffc800; padding: 25px; border-radius: 50px; color: white;}
+.icon_text h2{font-size: 18px; font-weight: 700;padding: 10px;}
+.icon_text p, .card-body .card-text{font-size: 12px; font-weight: 500; color: grey;}
+
+.section3{background-color: #f8f9fa;}
+.card{height: 42vh; width: 100%;}
+.card img{height: 32vh; width: 100%;}
+.card-body .card-title{font-size: 18px; font-weight: 700; margin: 0;}
+.card-body .card-text{font-style: italic; padding-bottom: 15px;}
+
+.section4{ position: relative;     padding: 30px 0;}
+.logo_img{ justify-content: space-evenly; opacity: 0.3;}
+.logo_img img{width: 15vh; height: 6vh; margin: 0 90px; }
+
+.section5{background-color: #212529;}
+.heading5 {color: white;}
+input[type=text], [type=email] {
+    width: 100%;
+    padding: 28px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  input[type=text]::placeholder{padding: 0 10px;}
+  input[type=email]::placeholder{padding: 0 10px;}
+
+.copyright p {font-size: 17px; color: gray; margin: 0;}
+.policy{list-style: none; padding: 0 0 0 920px; font-size: 17px; color: gray; margin: 0;}
+.policy li{padding: 0 20px;}
